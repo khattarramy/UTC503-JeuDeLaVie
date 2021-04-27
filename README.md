@@ -15,3 +15,9 @@ Dessiner sur la grille n'importe quel forme en cliquant sur les cases.
 Cliquer sur "Executer"
 Observer le mouvement de votre objet.
 Vous pouvez mettre en pause ou réinitialiser quand vous le souhaitez.  
+
+Règles:
+Si une cellule vivante a 2 ou 3 cellules voisins vivants elle reste vivante
+Si une cellule vivante a moins que 2 cellules voisins vivants elle deviendra morte
+Si une cellule vivante a plus que 3 cellules voisins vivants elle deviendra morte
+Si une cellule morte a exactement 3 cellules voisins vivants elle deviendra vivante
